@@ -14,7 +14,7 @@ const questions = [
   'Which sport is your favorite?',
   'What is your superpower? Something you are great at.'
 ];
-const answers = process.argv.slice(2);
+const answers = [];
 
 const askQuestion = function(index) {
   if (index === questions.length) {
